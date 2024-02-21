@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\hl2.exe" -game "C:\Program Files (x86)\Steam\steamapps\sourcemods\goonsquad" -steam -windowed -noborder +fps_max 144 -w 1920 -h 1080
