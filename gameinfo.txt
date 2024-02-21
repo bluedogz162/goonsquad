@@ -76,10 +76,15 @@
 			// Where the game's binaries are
 			gamebin				hl2mp/bin
 
-			// Last, mount in shared HL2 loose files
+			// Last, mount in shared HL2 & TF2 loose files
 			game				|all_source_engine_paths|hl2mp
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
+			game				"|all_source_engine_paths|../Team Fortress 2/tf/tf2_sound_misc.vpk"
+			game				"|all_source_engine_paths|../Team Fortress 2/tf/tf2_misc.vpk"
+			game				"|all_source_engine_paths|../Team Fortress 2/tf/tf2_sound_vo_english.vpk"
+			game				"|all_source_engine_paths|../Team Fortress 2/tf/tf2_textures.vpk"
+			game				"|all_source_engine_paths|../Team Fortress 2/tf/maps/"
 		}
 	}
 }
