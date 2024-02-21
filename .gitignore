@@ -2,3 +2,5 @@
 cfg/config.cfg
 demoheader.tmp
 modelsounds.cache
+*.ain
+*.dat
