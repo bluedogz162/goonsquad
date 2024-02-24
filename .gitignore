@@ -4,3 +4,5 @@ demoheader.tmp
 modelsounds.cache
 *.ain
 *.dat
+bin/server.pdb
+cfg/config.cfg
