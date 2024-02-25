@@ -1,4 +1,8 @@
-
+addons/*
+custom/*
+cfg/sourcemod/*
+materials/temp/*
+sound/temp/*
 cfg/config.cfg
 demoheader.tmp
 modelsounds.cache
