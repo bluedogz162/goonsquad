@@ -293,10 +293,15 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/metropolice/die1.wav"
-		"wave"	"npc/metropolice/die2.wav"
-		"wave"	"npc/metropolice/die3.wav"
-		"wave"	"npc/metropolice/die4.wav"
+		"wave"	"*vo/placeholder/gunman_death01.wav"
+		"wave"	"*vo/placeholder/gunman_death02.wav"
+		"wave"	"*vo/placeholder/gunman_death03.wav"
+		"wave"	"*vo/placeholder/gunman_death04.wav"
+		"wave"	"*vo/placeholder/gunman_death05.wav"
+		"wave"	"*vo/placeholder/gunman_death06.wav"
+		"wave"	"*vo/placeholder/gunman_death07.wav"
+		"wave"	"*vo/placeholder/gunman_death08.wav"
+		"wave"	"*vo/placeholder/gunman_death09.wav"
 	}
 }
 
@@ -310,9 +315,15 @@
 
 	"rndwave"
 	{
-		"wave"	"npc/combine_soldier/die1.wav"
-		"wave"	"npc/combine_soldier/die2.wav"
-		"wave"	"npc/combine_soldier/die3.wav"
+		"wave"	"*vo/placeholder/gunman_death01.wav"
+		"wave"	"*vo/placeholder/gunman_death02.wav"
+		"wave"	"*vo/placeholder/gunman_death03.wav"
+		"wave"	"*vo/placeholder/gunman_death04.wav"
+		"wave"	"*vo/placeholder/gunman_death05.wav"
+		"wave"	"*vo/placeholder/gunman_death06.wav"
+		"wave"	"*vo/placeholder/gunman_death07.wav"
+		"wave"	"*vo/placeholder/gunman_death08.wav"
+		"wave"	"*vo/placeholder/gunman_death09.wav"
 	}
 }
 "NPC_Citizen.die"
@@ -325,8 +336,14 @@
 
 	"rndwave"
 	{
-		"wave"	"*vo/npc/$gender01/pain07.wav"
-		"wave"	"*vo/npc/$gender01/pain08.wav"
-		"wave"	"*vo/npc/$gender01/pain09.wav"
+		"wave"	"*vo/placeholder/gunman_death01.wav"
+		"wave"	"*vo/placeholder/gunman_death02.wav"
+		"wave"	"*vo/placeholder/gunman_death03.wav"
+		"wave"	"*vo/placeholder/gunman_death04.wav"
+		"wave"	"*vo/placeholder/gunman_death05.wav"
+		"wave"	"*vo/placeholder/gunman_death06.wav"
+		"wave"	"*vo/placeholder/gunman_death07.wav"
+		"wave"	"*vo/placeholder/gunman_death08.wav"
+		"wave"	"*vo/placeholder/gunman_death09.wav"
 	}
 }
