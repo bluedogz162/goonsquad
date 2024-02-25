@@ -1,38 +1,36 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\gunman\gunman_testc"
-	"$bumpmap" "models\player\gunman\gunman_nm"
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Weapons/V_hand/bicep"
 	
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
-	"$detailblendfactor" ".0"
-	"$detailblendmode" "6"
-	
-	"$yellow" "0"
-	
+	"$detailblendfactor" .0
+	"$detailblendmode" 6
+
 	"$phong" "1"
-	"$phongexponenttexture" "models\player\gunman\gunman_exp"
+	//"$phongexponenttexture" "models\player\gunman\engineer_exponent"
 	"$phongboost" "1"	
 	"$lightwarptexture" "models/player/gunman/gunman_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongfresnelranges"	"[.8 1 8]"
 	"$halflambert" "0"
 
+	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
-	"$rimmask" "1"  
 
-	"$color2" "{255 255 255}"
-	"$colortint_base" "{255 255 255}"  // put the RGB value of whats being colored when no paint is present, if $blendtintcoloroverbase is 0 then put [1 1 1] here.
-	"$colortint_tmp" "[0 0 0]"
-	
-	
+	"$ambientocclusion" "1"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
+
+	"$yellow" "0"
+	"$envmaptint" "[0 0 0]"
+	"$envmaptint_rage" "[1 0 0]"
+	"$envmaptint_orig" "[0 0 0]"
+	"$envmapfresnel" "1"	
 	
-
-
 	
 	"Proxies"
 	{
@@ -57,10 +55,6 @@
 		{
 			"srcVar1" "$yellow"
 			"resultVar" "$color2"
-		}
-		"ItemTintColor"
-		{
-			"resultVar" "$colortint_tmp"
 		}
 		"LessOrEqual"
 		{
@@ -94,5 +88,5 @@
 			"srcVar2"		"$rage"
 			"resultVar"		"$envmaptint"
 		}
-	}
+	}	
 }
