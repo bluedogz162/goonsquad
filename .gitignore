@@ -18,3 +18,4 @@ cfg/motd.txt
 cfg/motd_text.txt
 cfg/banned_user.cfg
 cfg/banned_ip.cfg
+user_custom/*
