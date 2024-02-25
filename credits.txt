@@ -1,0 +1,11 @@
+-- == Goonsquad Credits == --
+
+Lead Developer, Models, Voice Acting: Drew
+
+Programmer: YOW
+
+Maps, Background Render: AlphaBlaster
+
+Particles, Game Icon: Boba
+
+Player Model Rigging: Zombie9143

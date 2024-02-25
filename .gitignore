@@ -20,3 +20,4 @@ cfg/banned_user.cfg
 cfg/banned_ip.cfg
 user_custom/*
 sound/sound.cache
+cfg/autoexec.cfg
