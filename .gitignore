@@ -11,3 +11,7 @@ modelsounds.cache
 bin/server.pdb
 cfg/config.cfg
 cfg/server_blacklist.txt
+cfg/botrix.cfg
+cfg/mapcycle.txt
+cfg/server.cfg
+cfg/motd.txt
