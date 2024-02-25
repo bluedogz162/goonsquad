@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Dev/dev_measuregeneric01_lava"
+	"$surfaceprop" "slime"
+	  $selfillum 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.0125
+			"texturescrollangle" 15
+		}
+	}
+}

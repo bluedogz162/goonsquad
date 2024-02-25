@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Dev/dev_measuregeneric01_lavagreen"
+	"$surfaceprop" "slime"
+	$selfillum 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.005
+			"texturescrollangle" 15
+		}
+	}
+}
