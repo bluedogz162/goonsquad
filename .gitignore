@@ -6,3 +6,4 @@ modelsounds.cache
 *.dat
 bin/server.pdb
 cfg/config.cfg
+cfg/server_blacklist.txt
