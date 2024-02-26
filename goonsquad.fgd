@@ -42,3 +42,5 @@
 	]
 ]
 
+//Grappling Hook
+@PointClass base(Weapon) studio("models/weapons/w_physics.mdl") = weapon_grapple: "Grapple Hook" []
