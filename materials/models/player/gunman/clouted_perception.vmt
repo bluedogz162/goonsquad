@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/player/gunman/clouted_perception_color"
-	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	//"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
 	"$phong"		"1"
 	"$phongexponent"		"6.000000"
 	"$phongboost"		"3.100000"
@@ -10,7 +10,7 @@
 	"$rimlight"		"1"
 	"$rimlightexponent"		"4"
 	"$rimlightboost"		"2"
-	"$color2"		"{ 255 255 255 }"
+	//"$color2"		"{ 62 62 62 }"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
