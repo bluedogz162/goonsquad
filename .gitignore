@@ -21,6 +21,10 @@ mapsrc/*.bsp
 mapsrc/*.log
 mapsrc/*.vmx
 mapsrc/*.prt
+mapsrc/alphablaster/*.bsp
+mapsrc/alphablaster/*.log
+mapsrc/alphablaster/*.vmx
+mapsrc/alphablaster/*.prt
 
 materials/temp/*
 modelsounds.cache
