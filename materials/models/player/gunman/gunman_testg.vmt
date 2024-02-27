@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\gunman\gunman_testg"
+	"$basetexture" "models\player\gunman\gunman_test"
 	"$bumpmap" "models\player\gunman\gunman_nm"
 	
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
