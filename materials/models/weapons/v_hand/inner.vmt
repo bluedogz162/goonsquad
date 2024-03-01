@@ -34,9 +34,9 @@
 	
 	"Proxies"
 	{
-		"spy_invis"
-		{
-		}
+		//"spy_invis"
+		//{
+		//}
 		"AnimatedTexture"
 		{
 			"animatedtexturevar" "$detail"
@@ -56,37 +56,37 @@
 			"srcVar1" "$yellow"
 			"resultVar" "$color2"
 		}
-		"LessOrEqual"
-		{
-			"lessEqualVar"	"$phongfresnelranges"
-			"greaterVar"	"$phongfresnelranges_orig"
-			"srcVar1"		"$rage"
-			"srcVar2"		"$rage_compare"
-			"resultVar"		"$phongfresnelranges"
-		}
-		"LessOrEqual"
-		{
-			"lessEqualVar"	"$envmaptint"
-			"greaterVar"	"$envmaptint_orig"
-			"srcVar1"		"$rage"
-			"srcVar2"		"$rage_compare"
-			"resultVar"		"$envmaptint"
-		}
-		"LessOrEqual"
-		{
-			"lessEqualVar"	"$phongfresnelranges"
-			"greaterVar"	"$phongfresnelranges_rage"
-			"srcVar1"		"$rage_compare"
-			"srcVar2"		"$rage"
-			"resultVar"		"$phongfresnelranges"
-		}
-		"LessOrEqual"
-		{
-			"lessEqualVar"	"$envmaptint"
-			"greaterVar"	"$envmaptint_rage"
-			"srcVar1"		"$rage_compare"
-			"srcVar2"		"$rage"
-			"resultVar"		"$envmaptint"
-		}
+		//"LessOrEqual"
+		//{
+		//	"lessEqualVar"	"$phongfresnelranges"
+		//	"greaterVar"	"$phongfresnelranges_orig"
+		//	"srcVar1"		"$rage"
+		//	"srcVar2"		"$rage_compare"
+		//	"resultVar"		"$phongfresnelranges"
+		//}
+		//"LessOrEqual"
+		//{
+		//	"lessEqualVar"	"$envmaptint"
+		//	"greaterVar"	"$envmaptint_orig"
+		//	"srcVar1"		"$rage"
+		//	"srcVar2"		"$rage_compare"
+		//	"resultVar"		"$envmaptint"
+		//}
+		//"LessOrEqual"
+		//{
+		//	"lessEqualVar"	"$phongfresnelranges"
+		//	"greaterVar"	"$phongfresnelranges_rage"
+		//	"srcVar1"		"$rage_compare"
+		//	"srcVar2"		"$rage"
+		//	"resultVar"		"$phongfresnelranges"
+		//}
+		//"LessOrEqual"
+		//{
+		//	"lessEqualVar"	"$envmaptint"
+		//	"greaterVar"	"$envmaptint_rage"
+		//	"srcVar1"		"$rage_compare"
+		//	"srcVar2"		"$rage"
+		//	"resultVar"		"$envmaptint"
+		//}
 	}
 }

@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$basetexture"		"models/player/gunman/clouted_perception_color"
-	//"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	//"$lightwarptexture"		"models/player/gunman/gunman_lightwarp"
 	"$phong"		"1"
 	"$phongexponent"		"6.000000"
 	"$phongboost"		"3.100000"
@@ -24,9 +24,9 @@
 	}
 	"proxies"
 	{
-		"invis"
-		{
-		}
+		//"invis"
+		//{
+		//}
 		"AnimatedTexture"
 		{
 			"animatedtexturevar"		"$detail"

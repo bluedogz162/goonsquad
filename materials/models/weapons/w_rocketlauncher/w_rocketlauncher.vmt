@@ -21,13 +21,13 @@
 	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
-		"weapon_invis"
-		{
-		}
-		"ModelGlowColor"
-		{
-			"resultVar""$glowcolor"
-		}
+		//"weapon_invis"
+		//{
+		//}
+		//"ModelGlowColor"
+		//{
+		//	"resultVar""$glowcolor"
+		//}
 		"Equals"
 		{
 			"srcVar1"	"$glowcolor"
@@ -38,9 +38,9 @@
 			"srcVar1"	"$glowcolor"
 			"resultVar"	"$color2"
 		}
-		"spy_invis"
-		{
-		}
+		//"spy_invis"
+		//{
+		//}
 	}
 }
 
