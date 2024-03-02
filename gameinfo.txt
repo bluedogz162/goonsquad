@@ -2,6 +2,7 @@
 {
 	game	"GOONSQUAD"
 	title	"GOONSQUAD"
+	gamelogo 1
 	title2	""
 	type multiplayer_only
 	nomodels 0
