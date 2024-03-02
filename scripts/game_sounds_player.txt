@@ -4,7 +4,7 @@
 	"volume"	"0.8"
 	"soundlevel"  "SNDLVL_60dB"
 
-	"wave"	"player/suit_denydevice.wav"
+	"wave"	"common/null.wav"
 }
 
 "HL2Player.SprintStart"
@@ -13,7 +13,7 @@
 	"volume"	"0.9"
 	"soundlevel"  "SNDLVL_60dB"
 
-	"wave"	"player/suit_sprint.wav"
+	"wave"	"common/null.wav"
 }
 
 "HL2Player.FlashLightOn"
@@ -89,9 +89,8 @@
 
 	"rndwave"
 	{
-			"wave"	"player/pl_burnpain1.wav"
-			"wave"	"player/pl_burnpain2.wav"
-			"wave"	"player/pl_burnpain3.wav"
+			"wave"	"vo/placeholder/gunman_burn01.wav"
+			"wave"	"vo/placeholder/gunman_burn02.wav"
 	}
 }
 
@@ -106,9 +105,12 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_pain5.wav"
-		"wave"	"player/pl_pain6.wav"
-		"wave"	"player/pl_pain7.wav"
+			"wave"	"vo/placeholder/gunman_pain01.wav"
+			"wave"	"vo/placeholder/gunman_pain02.wav"
+			"wave"	"vo/placeholder/gunman_pain03.wav"
+			"wave"	"vo/placeholder/gunman_pain04.wav"
+			"wave"	"vo/placeholder/gunman_pain05.wav"
+			"wave"	"vo/placeholder/gunman_pain06.wav"
 	}
 }
 
@@ -129,9 +131,12 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_pain5.wav"
-		"wave"	"player/pl_pain6.wav"
-		"wave"	"player/pl_pain7.wav"
+			"wave"	"vo/placeholder/gunman_pain01.wav"
+			"wave"	"vo/placeholder/gunman_pain02.wav"
+			"wave"	"vo/placeholder/gunman_pain03.wav"
+			"wave"	"vo/placeholder/gunman_pain04.wav"
+			"wave"	"vo/placeholder/gunman_pain05.wav"
+			"wave"	"vo/placeholder/gunman_pain06.wav"
 	}
 }
 
@@ -142,7 +147,11 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"		"90,110"
 
-	"wave"	"player/pl_drown1.wav"
+	"rndwave"
+	{
+		"wave"	"vo/placeholder/gunman_drown01.wav"
+		"wave"	"vo/placeholder/gunman_drown02.wav"
+	}
 }
 
 "Player.Swim"
@@ -165,13 +174,13 @@
 {
 	"channel"	"CHAN_AUTO"
 	"volume"	"0.75"
-	"pitch"		"90,110"
+	"pitch"		"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NORM"
 
 	"rndwave"
 	{
-		"wave"		"player/pl_fallpain1.wav"
-		"wave"		"player/pl_fallpain3.wav"
+		"wave"	"vo/placeholder/gunman_fallpain01.wav"
+		"wave"	"vo/placeholder/gunman_fallpain02.wav"
 	}
 }
 
@@ -197,9 +206,8 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_drown1.wav"
-		"wave"	"player/pl_drown2.wav"
-		"wave"	"player/pl_drown3.wav"
+		"wave"	"vo/placeholder/gunman_drown01.wav"
+		"wave"	"vo/placeholder/gunman_drown02.wav"
 	}
 }
 
