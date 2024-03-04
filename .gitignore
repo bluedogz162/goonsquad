@@ -32,3 +32,4 @@ sound/sound.cache
 sound/temp/*
 user_custom/*
 *.backup
+*.log
