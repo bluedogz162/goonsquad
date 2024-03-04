@@ -4,12 +4,12 @@ Lead Developer, Models, Voice Acting: Drew
 
 Programmer: YOW
 
-Maps, Background Render: AlphaBlaster
+Maps, Background Render, RPC: AlphaBlaster
 Maps: Bakscratch
 
 Particles, Game Icon: Boba
 
-Player Model Rigging: Zombie9143
+Player Model, Weapon, Placeholder Medkit Rigging: Zombie9143
 
 Player Model Concept, THE_GOONER Spray: Bobojand
 
@@ -17,4 +17,5 @@ Player Model Concept, THE_GOONER Spray: Bobojand
 
 
 Misc. Credits:
+SDK2013 Community Edition: Nbc66
 HL2 Grappling Hook Tutorial: VDC, Obsidian Conflict Team, Maestro Fenix

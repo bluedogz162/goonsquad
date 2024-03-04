@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1380,7 +1380,7 @@ entity
 	"holdtime" ".10"
 	"renderamt" "255"
 	"rendercolor" "238 164 21"
-	"spawnflags" "1"
+	"spawnflags" "5"
 	"targetname" "fade_tele"
 	"origin" "-272.235 29.1208 216"
 	editor
