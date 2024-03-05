@@ -105,6 +105,26 @@
 
 	"rndwave"
 	{
+		"wave"	"*vo/placeholder/gunman_death01.wav"
+		"wave"	"*vo/placeholder/gunman_death02.wav"
+		"wave"	"*vo/placeholder/gunman_death03.wav"
+		"wave"	"*vo/placeholder/gunman_death04.wav"
+		"wave"	"*vo/placeholder/gunman_death05.wav"
+		"wave"	"*vo/placeholder/gunman_death06.wav"
+		"wave"	"*vo/placeholder/gunman_death07.wav"
+		"wave"	"*vo/placeholder/gunman_death08.wav"
+		"wave"	"*vo/placeholder/gunman_death09.wav"
+	}
+}
+
+"Player.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
 			"wave"	"vo/placeholder/gunman_pain01.wav"
 			"wave"	"vo/placeholder/gunman_pain02.wav"
 			"wave"	"vo/placeholder/gunman_pain03.wav"
@@ -151,6 +171,19 @@
 	{
 		"wave"	"vo/placeholder/gunman_drown01.wav"
 		"wave"	"vo/placeholder/gunman_drown02.wav"
+	}
+}
+
+"Player.Jump"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"vo/placeholder/gunman_jump01.wav"
+		"wave"	"vo/placeholder/gunman_jump01.wav"
 	}
 }
 
