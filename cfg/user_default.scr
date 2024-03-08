@@ -1,0 +1,21 @@
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+
+	"cl_playermodel"
+	{
+		"#GameUI_PlayerModel"
+		{
+
+			LIST
+			"gunman_rigged_green" "models/player/colors/gunman_rigged_green.mdl"
+			"gunman_rigged_blue" "models/player/colors/gunman_rigged_blue.mdl"
+		}
+
+		{ "1" }
+
+	}
+
+}

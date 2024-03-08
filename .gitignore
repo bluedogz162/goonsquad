@@ -33,3 +33,4 @@ sound/temp/*
 user_custom/*
 *.backup
 *.log
+cfg/user.scr

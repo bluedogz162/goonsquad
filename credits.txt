@@ -19,3 +19,4 @@ Player Model Concept, THE_GOONER Spray: Bobojand
 Misc. Credits:
 SDK2013 Community Edition: Nbc66
 HL2 Grappling Hook Tutorial: VDC, Obsidian Conflict Team, Maestro Fenix
+Temporary Player Model Menu Fix by Jora_ on Gamebanana https://gamebanana.com/mods/35036
