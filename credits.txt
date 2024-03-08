@@ -4,7 +4,7 @@ Lead Developer, Models, Voice Acting: Drew
 
 Programmer: YOW
 
-Maps, Background Render, RPC: AlphaBlaster
+Maps, Background Render, Some Code: AlphaBlaster
 Maps: Bakscratch
 
 Particles, Game Icon: Boba
