@@ -22,7 +22,7 @@
 	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
 	"$rimmask" "1"  
 
-	"$color2" "{255 255 255}"
+	"$color2" "{81 56 74}"
 	"$colortint_base" "{255 255 255}"  // put the RGB value of whats being colored when no paint is present, if $blendtintcoloroverbase is 0 then put [1 1 1] here.
 	"$colortint_tmp" "[0 0 0]"
 	
