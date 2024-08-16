@@ -1,4 +1,6 @@
+dm_entryway
 dm_facility
 dm_fortblox
 dm_hangar
+dm_theslimeplace
 dm_widestmeter
