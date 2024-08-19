@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "938"
+	"mapversion" "953"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "938"
+	"mapversion" "953"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4252,7 +4252,7 @@ world
 				"v" "-912 416 1152"
 				"v" "-784 416 1152"
 			}
-			"material" "DEV/REFLECTIVITY_30"
+			"material" "DEV/REFLECTIVITY_30B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -49185,34 +49185,21 @@ entity
 }
 entity
 {
-	"id" "18959"
-	"classname" "item_ammopack_medium"
+	"id" "26510"
+	"classname" "item_rpg_round"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_medium.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "144 -240 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-352 1460 74.3635"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 11000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -49259,66 +49246,40 @@ entity
 }
 entity
 {
-	"id" "18850"
-	"classname" "item_ammopack_small"
+	"id" "26406"
+	"classname" "item_box_buckshot"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-480 2128 193.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-768 -160 72.2939"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 9000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18697"
-	"classname" "item_ammopack_small"
+	"id" "26472"
+	"classname" "item_ammo_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-32 1312 457.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1516 2240 72.2758"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 7500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -51268,34 +51229,21 @@ entity
 }
 entity
 {
-	"id" "18787"
-	"classname" "item_healthkit_medium"
+	"id" "26556"
+	"classname" "item_ammo_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_medium.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-736 2272 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-368 2272 192.276"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 8500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -52522,34 +52470,21 @@ entity
 }
 entity
 {
-	"id" "18840"
-	"classname" "item_ammopack_small"
+	"id" "26434"
+	"classname" "item_ammo_ar2_altfire"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-480 2480 193.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1028 560 72.2839"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 9000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -54096,34 +54031,20 @@ entity
 }
 entity
 {
-	"id" "18919"
-	"classname" "item_ammopack_medium"
+	"id" "26526"
+	"classname" "weapon_shotgun"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_medium.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-600 3920 193.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "320 1104 393.373"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 10500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -59037,66 +58958,63 @@ entity
 }
 entity
 {
-	"id" "18276"
-	"classname" "item_healthkit_small"
+	"id" "26357"
+	"classname" "prop_dynamic"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "192 2112 73.0046"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit11"
+	"origin" "-864 1536 84.557"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 2000]"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
 {
-	"id" "18286"
-	"classname" "item_healthkit_small"
+	"id" "26560"
+	"classname" "item_ammo_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "560 2112 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-400 2272 192.276"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 2000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -59117,163 +59035,95 @@ entity
 }
 entity
 {
-	"id" "18713"
-	"classname" "item_healthkit_small"
+	"id" "26591"
+	"classname" "item_ammo_smg1_grenade"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-864 1536 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-672 2796 72.3024"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 8000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18335"
-	"classname" "item_ammopack_small"
+	"id" "26496"
+	"classname" "weapon_rpg"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "1544 2392 -62.9954"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-370.623 1441.45 83.4591"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 2500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18345"
-	"classname" "item_ammopack_small"
+	"id" "26411"
+	"classname" "item_box_buckshot"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "1456 2392 -62.9954"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-736 -192 72.2939"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 2500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18349"
-	"classname" "item_healthkit_medium"
+	"id" "26395"
+	"classname" "weapon_shotgun"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_medium.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"targetname" "JumpKit"
-	"texframeindex" "0"
-	"origin" "384 2688 -96"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-752 -176 81.3729"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 3000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18374"
-	"classname" "item_healthkit_medium"
+	"id" "26530"
+	"classname" "item_box_buckshot"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_medium.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "1576 1496 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "304 1120 384.294"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 3500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -59294,98 +59144,58 @@ entity
 }
 entity
 {
-	"id" "18695"
-	"classname" "item_healthkit_small"
+	"id" "26586"
+	"classname" "item_ammo_smg1_grenade"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-96 1312 457.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-672 2772 72.3024"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 7000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18991"
-	"classname" "item_healthkit_small"
+	"id" "26574"
+	"classname" "weapon_smg1"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-352 -368 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-668 2784 84.4711"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 12500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "19009"
-	"classname" "item_healthkit_medium"
+	"id" "26528"
+	"classname" "item_box_buckshot"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_medium.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-352 128 769.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "336 1088 384.294"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 13000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -59422,225 +59232,144 @@ entity
 }
 entity
 {
-	"id" "18655"
-	"classname" "item_healthkit_mega"
+	"id" "26558"
+	"classname" "weapon_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"HiddenWhenRespawning" "0"
-	"model" "models/pickups/megahealth.mdl"
-	"pickup_sound" "HealthKitMega.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"respawntime" "125"
-	"skin" "0"
-	"solid" "6"
-	"spawn_sound" "items/itembk2.wav"
-	connections
-	{
-		"OnPlayerTouch" "RespawnSound_Mega,PlaySound,,125,-1"
-	}
-	"origin" "-288 992 84.6366"
+	"spawnflags" "0"
+	"origin" "-389.992 2271.79 195.944"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -4268]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18500"
-	"classname" "item_healthkit_small"
-	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/medkit_small.mdl"
-	"pickup_sound" "Healthkit.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "592 757.042 73.0046"
+	"id" "26361"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn11"
+	"volstart" "0"
+	"origin" "-864 1536 114.295"
 	editor
 	{
-		"color" "0 0 200"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 6000]"
+		"logicalpos" "[0 9500]"
 	}
 }
 entity
 {
-	"id" "18523"
-	"classname" "item_ammopack_small"
+	"id" "26420"
+	"classname" "weapon_ar2"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "592 665.042 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1024.35 545.304 81.8044"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 6500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18535"
-	"classname" "item_ammopack_small"
+	"id" "26427"
+	"classname" "item_ammo_ar2_altfire"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "592 848 73.0046"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1028 528 81.8044"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 6500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18933"
-	"classname" "item_ammopack_medium"
+	"id" "26515"
+	"classname" "item_rpg_round"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_medium.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "-376 3920 193.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-352 1420 74.3635"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 10500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18967"
-	"classname" "item_ammopack_small"
+	"id" "26467"
+	"classname" "item_ammo_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "424 -264 385.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1484 2240 72.2758"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 11500]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "18969"
-	"classname" "item_ammopack_small"
+	"id" "26452"
+	"classname" "weapon_357"
 	"angles" "0 0 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"model" "models/items/ammopack_small.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawndelay" "0"
-	"respawntime" "10"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"origin" "320 -264 385.005"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "1494.01 2239.79 75.9442"
 	editor
 	{
 		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[500 12000]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -64244,8 +63973,8 @@ entity
 			{
 				"v" "-83.8484 2725.27 -24"
 				"v" "-83.8484 2661.27 -24"
-				"v" "-69.992 2661.27 -32"
-				"v" "-69.992 2741.27 -32"
+				"v" "-70 2661.27 -32"
+				"v" "-70 2741.27 -32"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
 			"uaxis" "[0 1 0 -21.0723] 0.25"
@@ -64278,8 +64007,8 @@ entity
 			"plane" "(-69.992 2741.27 -32) (-69.992 2661.27 -32) (-69.282 2661.27 -30.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2741.27 -32"
-				"v" "-69.992 2661.27 -32"
+				"v" "-70 2741.27 -32"
+				"v" "-70 2661.27 -32"
 				"v" "-69.282 2661.27 -30.7703"
 				"v" "-69.282 2741.27 -30.7703"
 			}
@@ -64297,7 +64026,7 @@ entity
 			vertices_plus
 			{
 				"v" "-83.8484 2725.27 -24"
-				"v" "-69.992 2741.27 -32"
+				"v" "-70 2741.27 -32"
 				"v" "-69.282 2741.27 -30.7703"
 				"v" "-83.1384 2725.27 -22.7703"
 			}
@@ -64314,7 +64043,7 @@ entity
 			"plane" "(-69.992 2661.27 -32) (-83.8484 2661.27 -24) (-83.1384 2661.27 -22.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2661.27 -32"
+				"v" "-70 2661.27 -32"
 				"v" "-83.8484 2661.27 -24"
 				"v" "-83.1384 2661.27 -22.7703"
 				"v" "-69.282 2661.27 -30.7703"
@@ -64342,7 +64071,7 @@ entity
 			"plane" "(-0.000147343 2725.27 -70.7706) (-69.2822 2725.27 -30.7706) (-69.2822 2741.27 -30.7706)"
 			vertices_plus
 			{
-				"v" "-0.000147343 2725.27 -70.7706"
+				"v" "-0 2725.27 -70.7706"
 				"v" "-69.2822 2725.27 -30.7706"
 				"v" "-69.2822 2741.27 -30.7706"
 				"v" "-13.8566 2741.27 -62.7706"
@@ -64361,8 +64090,8 @@ entity
 			vertices_plus
 			{
 				"v" "-14.5664 2741.27 -64"
-				"v" "-69.992 2741.27 -32"
-				"v" "-69.992 2725.27 -32"
+				"v" "-70 2741.27 -32"
+				"v" "-70 2725.27 -32"
 				"v" "-0.709948 2725.27 -72"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
@@ -64378,7 +64107,7 @@ entity
 			"plane" "(-69.992 2741.27 -32) (-14.5664 2741.27 -64) (-13.8564 2741.27 -62.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2741.27 -32"
+				"v" "-70 2741.27 -32"
 				"v" "-14.5664 2741.27 -64"
 				"v" "-13.8564 2741.27 -62.7703"
 				"v" "-69.282 2741.27 -30.7703"
@@ -64397,9 +64126,9 @@ entity
 			vertices_plus
 			{
 				"v" "-0.709948 2725.27 -72"
-				"v" "-69.992 2725.27 -32"
+				"v" "-70 2725.27 -32"
 				"v" "-69.282 2725.27 -30.7703"
-				"v" "1.43051e-06 2725.27 -70.7703"
+				"v" "0 2725.27 -70.7703"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
 			"uaxis" "[0.866025 0 -0.5 -13.5407] 0.25"
@@ -64416,7 +64145,7 @@ entity
 			{
 				"v" "-14.5664 2741.27 -64"
 				"v" "-0.709948 2725.27 -72"
-				"v" "1.43051e-06 2725.27 -70.7703"
+				"v" "0 2725.27 -70.7703"
 				"v" "-13.8564 2741.27 -62.7703"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
@@ -64432,8 +64161,8 @@ entity
 			"plane" "(-69.992 2725.27 -32) (-69.992 2741.27 -32) (-69.282 2741.27 -30.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2725.27 -32"
-				"v" "-69.992 2741.27 -32"
+				"v" "-70 2725.27 -32"
+				"v" "-70 2741.27 -32"
 				"v" "-69.282 2741.27 -30.7703"
 				"v" "-69.282 2725.27 -30.7703"
 			}
@@ -64478,8 +64207,8 @@ entity
 			"plane" "(-69.992 2725.27 -32) (-69.992 2661.27 -32) (-14.5664 2661.27 -64)"
 			vertices_plus
 			{
-				"v" "-69.992 2725.27 -32"
-				"v" "-69.992 2661.27 -32"
+				"v" "-70 2725.27 -32"
+				"v" "-70 2661.27 -32"
 				"v" "-14.5664 2661.27 -64"
 				"v" "-14.5664 2725.27 -64"
 			}
@@ -64496,8 +64225,8 @@ entity
 			"plane" "(-69.992 2661.27 -32) (-69.992 2725.27 -32) (-69.282 2725.27 -30.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2661.27 -32"
-				"v" "-69.992 2725.27 -32"
+				"v" "-70 2661.27 -32"
+				"v" "-70 2725.27 -32"
 				"v" "-69.282 2725.27 -30.7703"
 				"v" "-69.282 2661.27 -30.7703"
 			}
@@ -64532,7 +64261,7 @@ entity
 			"plane" "(-69.992 2725.27 -32) (-14.5664 2725.27 -64) (-13.8564 2725.27 -62.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2725.27 -32"
+				"v" "-70 2725.27 -32"
 				"v" "-14.5664 2725.27 -64"
 				"v" "-13.8564 2725.27 -62.7703"
 				"v" "-69.282 2725.27 -30.7703"
@@ -64551,7 +64280,7 @@ entity
 			vertices_plus
 			{
 				"v" "-14.5664 2661.27 -64"
-				"v" "-69.992 2661.27 -32"
+				"v" "-70 2661.27 -32"
 				"v" "-69.282 2661.27 -30.7703"
 				"v" "-13.8564 2661.27 -62.7703"
 			}
@@ -64580,8 +64309,8 @@ entity
 			{
 				"v" "-13.8566 2645.27 -62.7706"
 				"v" "-13.8566 2725.27 -62.7706"
-				"v" "-0.000147343 2725.27 -70.7706"
-				"v" "-0.000147343 2661.27 -70.7706"
+				"v" "-0 2725.27 -70.7706"
+				"v" "-0 2661.27 -70.7706"
 			}
 			"material" "PROPS/HAZARDSTRIP001A"
 			"uaxis" "[0.866025 0 -0.5 -13.5407] 0.25"
@@ -64616,8 +64345,8 @@ entity
 			{
 				"v" "-0.709948 2725.27 -72"
 				"v" "-0.709948 2661.27 -72"
-				"v" "1.43051e-06 2661.27 -70.7703"
-				"v" "1.43051e-06 2725.27 -70.7703"
+				"v" "0 2661.27 -70.7703"
+				"v" "0 2725.27 -70.7703"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
 			"uaxis" "[0 -1 0 21.0723] 0.25"
@@ -64653,7 +64382,7 @@ entity
 				"v" "-0.709948 2661.27 -72"
 				"v" "-14.5664 2645.27 -64"
 				"v" "-13.8564 2645.27 -62.7703"
-				"v" "1.43051e-06 2661.27 -70.7703"
+				"v" "0 2661.27 -70.7703"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
 			"uaxis" "[0.866025 0 -0.5 -13.5407] 0.25"
@@ -64670,7 +64399,7 @@ entity
 			{
 				"v" "-14.5664 2725.27 -64"
 				"v" "-0.709948 2725.27 -72"
-				"v" "1.43051e-06 2725.27 -70.7703"
+				"v" "0 2725.27 -70.7703"
 				"v" "-13.8564 2725.27 -62.7703"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
@@ -64716,7 +64445,7 @@ entity
 			{
 				"v" "-14.5664 2661.27 -64"
 				"v" "-83.8484 2661.27 -24"
-				"v" "-69.992 2645.27 -32"
+				"v" "-70 2645.27 -32"
 				"v" "-14.5664 2645.27 -64"
 			}
 			"material" "DEV/REFLECTIVITY_30B"
@@ -64733,7 +64462,7 @@ entity
 			vertices_plus
 			{
 				"v" "-14.5664 2645.27 -64"
-				"v" "-69.992 2645.27 -32"
+				"v" "-70 2645.27 -32"
 				"v" "-69.282 2645.27 -30.7703"
 				"v" "-13.8564 2645.27 -62.7703"
 			}
@@ -64768,7 +64497,7 @@ entity
 			"plane" "(-69.992 2645.27 -32) (-83.8484 2661.27 -24) (-83.1384 2661.27 -22.7703)"
 			vertices_plus
 			{
-				"v" "-69.992 2645.27 -32"
+				"v" "-70 2645.27 -32"
 				"v" "-83.8484 2661.27 -24"
 				"v" "-83.1384 2661.27 -22.7703"
 				"v" "-69.282 2645.27 -30.7703"
@@ -64981,6 +64710,3028 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "25235"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-352.01 128 792"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25236"
+		side
+		{
+			"id" "8394"
+			"plane" "(-368 144 812) (-336 144 812) (-336 112 812)"
+			vertices_plus
+			{
+				"v" "-368 144 812"
+				"v" "-336 144 812"
+				"v" "-336 112 812"
+				"v" "-368 112 812"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8393"
+			"plane" "(-368 112 772) (-336 112 772) (-336 144 772)"
+			vertices_plus
+			{
+				"v" "-368 112 772"
+				"v" "-336 112 772"
+				"v" "-336 144 772"
+				"v" "-368 144 772"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8392"
+			"plane" "(-368 144 812) (-368 112 812) (-368 112 772)"
+			vertices_plus
+			{
+				"v" "-368 144 812"
+				"v" "-368 112 812"
+				"v" "-368 112 772"
+				"v" "-368 144 772"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8391"
+			"plane" "(-336 144 772) (-336 112 772) (-336 112 812)"
+			vertices_plus
+			{
+				"v" "-336 144 772"
+				"v" "-336 112 772"
+				"v" "-336 112 812"
+				"v" "-336 144 812"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8390"
+			"plane" "(-336 144 812) (-368 144 812) (-368 144 772)"
+			vertices_plus
+			{
+				"v" "-336 144 812"
+				"v" "-368 144 812"
+				"v" "-368 144 772"
+				"v" "-336 144 772"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8389"
+			"plane" "(-336 112 772) (-368 112 772) (-368 112 812)"
+			vertices_plus
+			{
+				"v" "-336 112 772"
+				"v" "-368 112 772"
+				"v" "-368 112 812"
+				"v" "-336 112 812"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25238"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn"
+	"volstart" "0"
+	"origin" "-352 128 810.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25241"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal"
+	"volstart" "0"
+	"origin" "-352 128 776"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25244"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit"
+	"origin" "-352 128 780.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25306"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-352.02 -368 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit1"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit1,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit1,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal1,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn1,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit1,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit1,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25307"
+		side
+		{
+			"id" "8430"
+			"plane" "(-368 -352 116) (-336 -352 116) (-336 -384 116)"
+			vertices_plus
+			{
+				"v" "-368 -352 116"
+				"v" "-336 -352 116"
+				"v" "-336 -384 116"
+				"v" "-368 -384 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8429"
+			"plane" "(-368 -384 76) (-336 -384 76) (-336 -352 76)"
+			vertices_plus
+			{
+				"v" "-368 -384 76"
+				"v" "-336 -384 76"
+				"v" "-336 -352 76"
+				"v" "-368 -352 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8428"
+			"plane" "(-368 -352 116) (-368 -384 116) (-368 -384 76)"
+			vertices_plus
+			{
+				"v" "-368 -352 116"
+				"v" "-368 -384 116"
+				"v" "-368 -384 76"
+				"v" "-368 -352 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8427"
+			"plane" "(-336 -352 76) (-336 -384 76) (-336 -384 116)"
+			vertices_plus
+			{
+				"v" "-336 -352 76"
+				"v" "-336 -384 76"
+				"v" "-336 -384 116"
+				"v" "-336 -352 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8426"
+			"plane" "(-336 -352 116) (-368 -352 116) (-368 -352 76)"
+			vertices_plus
+			{
+				"v" "-336 -352 116"
+				"v" "-368 -352 116"
+				"v" "-368 -352 76"
+				"v" "-336 -352 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8425"
+			"plane" "(-336 -384 76) (-368 -384 76) (-368 -384 116)"
+			vertices_plus
+			{
+				"v" "-336 -384 76"
+				"v" "-368 -384 76"
+				"v" "-368 -384 116"
+				"v" "-336 -384 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25309"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn1"
+	"volstart" "0"
+	"origin" "-352 -368 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25312"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal1"
+	"volstart" "0"
+	"origin" "-352 -368 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25315"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit1"
+	"origin" "-352 -368 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25351"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "591.98 756 97"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit2"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit2,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit2,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal2,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn2,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit2,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit2,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25352"
+		side
+		{
+			"id" "8454"
+			"plane" "(576 772 117.005) (608 772 117.005) (608 740 117.005)"
+			vertices_plus
+			{
+				"v" "576 772 117.005"
+				"v" "608 772 117.005"
+				"v" "608 740 117.005"
+				"v" "576 740 117.005"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8453"
+			"plane" "(576 740 77.0046) (608 740 77.0046) (608 772 77.0046)"
+			vertices_plus
+			{
+				"v" "576 740 77.0046"
+				"v" "608 740 77.0046"
+				"v" "608 772 77.0046"
+				"v" "576 772 77.0046"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8452"
+			"plane" "(576 772 117.005) (576 740 117.005) (576 740 77.0046)"
+			vertices_plus
+			{
+				"v" "576 772 117.005"
+				"v" "576 740 117.005"
+				"v" "576 740 77.0046"
+				"v" "576 772 77.0046"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 -11.9817] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8451"
+			"plane" "(608 772 77.0046) (608 740 77.0046) (608 740 117.005)"
+			vertices_plus
+			{
+				"v" "608 772 77.0046"
+				"v" "608 740 77.0046"
+				"v" "608 740 117.005"
+				"v" "608 772 117.005"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 -11.9817] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8450"
+			"plane" "(608 772 117.005) (576 772 117.005) (576 772 77.0046)"
+			vertices_plus
+			{
+				"v" "608 772 117.005"
+				"v" "576 772 117.005"
+				"v" "576 772 77.0046"
+				"v" "608 772 77.0046"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -11.9817] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8449"
+			"plane" "(608 740 77.0046) (576 740 77.0046) (576 740 117.005)"
+			vertices_plus
+			{
+				"v" "608 740 77.0046"
+				"v" "576 740 77.0046"
+				"v" "576 740 117.005"
+				"v" "608 740 117.005"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -11.9817] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25354"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn2"
+	"volstart" "0"
+	"origin" "592 756 123.3"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25357"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal2"
+	"volstart" "0"
+	"origin" "592 756 89.0046"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25360"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit2"
+	"origin" "592 756 85.5616"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25396"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "591.99 848 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit3"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit3,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit3,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal3,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn3,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit3,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit3,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25397"
+		side
+		{
+			"id" "8478"
+			"plane" "(576 864 116) (608 864 116) (608 832 116)"
+			vertices_plus
+			{
+				"v" "576 864 116"
+				"v" "608 864 116"
+				"v" "608 832 116"
+				"v" "576 832 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8477"
+			"plane" "(576 832 76) (608 832 76) (608 864 76)"
+			vertices_plus
+			{
+				"v" "576 832 76"
+				"v" "608 832 76"
+				"v" "608 864 76"
+				"v" "576 864 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8476"
+			"plane" "(576 864 116) (576 832 116) (576 832 76)"
+			vertices_plus
+			{
+				"v" "576 864 116"
+				"v" "576 832 116"
+				"v" "576 832 76"
+				"v" "576 864 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8475"
+			"plane" "(608 864 76) (608 832 76) (608 832 116)"
+			vertices_plus
+			{
+				"v" "608 864 76"
+				"v" "608 832 76"
+				"v" "608 832 116"
+				"v" "608 864 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8474"
+			"plane" "(608 864 116) (576 864 116) (576 864 76)"
+			vertices_plus
+			{
+				"v" "608 864 116"
+				"v" "576 864 116"
+				"v" "576 864 76"
+				"v" "608 864 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8473"
+			"plane" "(608 832 76) (576 832 76) (576 832 116)"
+			vertices_plus
+			{
+				"v" "608 832 76"
+				"v" "576 832 76"
+				"v" "576 832 116"
+				"v" "608 832 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25399"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn3"
+	"volstart" "0"
+	"origin" "592 848 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25402"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal3"
+	"volstart" "0"
+	"origin" "592 848 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25405"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit3"
+	"origin" "592 848 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25441"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "591.99 664 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit4"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit4,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit4,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal4,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn4,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit4,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit4,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25442"
+		side
+		{
+			"id" "8502"
+			"plane" "(576 680 116) (608 680 116) (608 648 116)"
+			vertices_plus
+			{
+				"v" "576 680 116"
+				"v" "608 680 116"
+				"v" "608 648 116"
+				"v" "576 648 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8501"
+			"plane" "(576 648 76) (608 648 76) (608 680 76)"
+			vertices_plus
+			{
+				"v" "576 648 76"
+				"v" "608 648 76"
+				"v" "608 680 76"
+				"v" "576 680 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8500"
+			"plane" "(576 680 116) (576 648 116) (576 648 76)"
+			vertices_plus
+			{
+				"v" "576 680 116"
+				"v" "576 648 116"
+				"v" "576 648 76"
+				"v" "576 680 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8499"
+			"plane" "(608 680 76) (608 648 76) (608 648 116)"
+			vertices_plus
+			{
+				"v" "608 680 76"
+				"v" "608 648 76"
+				"v" "608 648 116"
+				"v" "608 680 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8498"
+			"plane" "(608 680 116) (576 680 116) (576 680 76)"
+			vertices_plus
+			{
+				"v" "608 680 116"
+				"v" "576 680 116"
+				"v" "576 680 76"
+				"v" "608 680 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8497"
+			"plane" "(608 648 76) (576 648 76) (576 648 116)"
+			vertices_plus
+			{
+				"v" "608 648 76"
+				"v" "576 648 76"
+				"v" "576 648 116"
+				"v" "608 648 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25444"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn4"
+	"volstart" "0"
+	"origin" "592 664 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25447"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal4"
+	"volstart" "0"
+	"origin" "592 664 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25450"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit4"
+	"origin" "592 664 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25523"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-96.01 1312 480"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit5"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit5,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit5,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal5,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn5,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit5,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit5,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25524"
+		side
+		{
+			"id" "8538"
+			"plane" "(-112 1328 500) (-80 1328 500) (-80 1296 500)"
+			vertices_plus
+			{
+				"v" "-112 1328 500"
+				"v" "-80 1328 500"
+				"v" "-80 1296 500"
+				"v" "-112 1296 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8537"
+			"plane" "(-112 1296 460) (-80 1296 460) (-80 1328 460)"
+			vertices_plus
+			{
+				"v" "-112 1296 460"
+				"v" "-80 1296 460"
+				"v" "-80 1328 460"
+				"v" "-112 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8536"
+			"plane" "(-112 1328 500) (-112 1296 500) (-112 1296 460)"
+			vertices_plus
+			{
+				"v" "-112 1328 500"
+				"v" "-112 1296 500"
+				"v" "-112 1296 460"
+				"v" "-112 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8535"
+			"plane" "(-80 1328 460) (-80 1296 460) (-80 1296 500)"
+			vertices_plus
+			{
+				"v" "-80 1328 460"
+				"v" "-80 1296 460"
+				"v" "-80 1296 500"
+				"v" "-80 1328 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8534"
+			"plane" "(-80 1328 500) (-112 1328 500) (-112 1328 460)"
+			vertices_plus
+			{
+				"v" "-80 1328 500"
+				"v" "-112 1328 500"
+				"v" "-112 1328 460"
+				"v" "-80 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8533"
+			"plane" "(-80 1296 460) (-112 1296 460) (-112 1296 500)"
+			vertices_plus
+			{
+				"v" "-80 1296 460"
+				"v" "-112 1296 460"
+				"v" "-112 1296 500"
+				"v" "-80 1296 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25526"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn5"
+	"volstart" "0"
+	"origin" "-96 1312 498.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25529"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal5"
+	"volstart" "0"
+	"origin" "-96 1312 464"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25532"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit5"
+	"origin" "-96 1312 468.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25554"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-32.01 1312 480"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit6"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit6,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit6,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal6,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn6,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit6,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit6,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25555"
+		side
+		{
+			"id" "8550"
+			"plane" "(-48 1328 500) (-16 1328 500) (-16 1296 500)"
+			vertices_plus
+			{
+				"v" "-48 1328 500"
+				"v" "-16 1328 500"
+				"v" "-16 1296 500"
+				"v" "-48 1296 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8549"
+			"plane" "(-48 1296 460) (-16 1296 460) (-16 1328 460)"
+			vertices_plus
+			{
+				"v" "-48 1296 460"
+				"v" "-16 1296 460"
+				"v" "-16 1328 460"
+				"v" "-48 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8548"
+			"plane" "(-48 1328 500) (-48 1296 500) (-48 1296 460)"
+			vertices_plus
+			{
+				"v" "-48 1328 500"
+				"v" "-48 1296 500"
+				"v" "-48 1296 460"
+				"v" "-48 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8547"
+			"plane" "(-16 1328 460) (-16 1296 460) (-16 1296 500)"
+			vertices_plus
+			{
+				"v" "-16 1328 460"
+				"v" "-16 1296 460"
+				"v" "-16 1296 500"
+				"v" "-16 1328 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8546"
+			"plane" "(-16 1328 500) (-48 1328 500) (-48 1328 460)"
+			vertices_plus
+			{
+				"v" "-16 1328 500"
+				"v" "-48 1328 500"
+				"v" "-48 1328 460"
+				"v" "-16 1328 460"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8545"
+			"plane" "(-16 1296 460) (-48 1296 460) (-48 1296 500)"
+			vertices_plus
+			{
+				"v" "-16 1296 460"
+				"v" "-48 1296 460"
+				"v" "-48 1296 500"
+				"v" "-16 1296 500"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25557"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn6"
+	"volstart" "0"
+	"origin" "-32 1312 498.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25560"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal6"
+	"volstart" "0"
+	"origin" "-32 1312 464"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25563"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit6"
+	"origin" "-32 1312 468.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25600"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-736.01 2272 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit7"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit7,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit7,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal7,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn7,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit7,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit7,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25601"
+		side
+		{
+			"id" "8574"
+			"plane" "(-752 2288 116) (-720 2288 116) (-720 2256 116)"
+			vertices_plus
+			{
+				"v" "-752 2288 116"
+				"v" "-720 2288 116"
+				"v" "-720 2256 116"
+				"v" "-752 2256 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8573"
+			"plane" "(-752 2256 76) (-720 2256 76) (-720 2288 76)"
+			vertices_plus
+			{
+				"v" "-752 2256 76"
+				"v" "-720 2256 76"
+				"v" "-720 2288 76"
+				"v" "-752 2288 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8572"
+			"plane" "(-752 2288 116) (-752 2256 116) (-752 2256 76)"
+			vertices_plus
+			{
+				"v" "-752 2288 116"
+				"v" "-752 2256 116"
+				"v" "-752 2256 76"
+				"v" "-752 2288 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8571"
+			"plane" "(-720 2288 76) (-720 2256 76) (-720 2256 116)"
+			vertices_plus
+			{
+				"v" "-720 2288 76"
+				"v" "-720 2256 76"
+				"v" "-720 2256 116"
+				"v" "-720 2288 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8570"
+			"plane" "(-720 2288 116) (-752 2288 116) (-752 2288 76)"
+			vertices_plus
+			{
+				"v" "-720 2288 116"
+				"v" "-752 2288 116"
+				"v" "-752 2288 76"
+				"v" "-720 2288 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8569"
+			"plane" "(-720 2256 76) (-752 2256 76) (-752 2256 116)"
+			vertices_plus
+			{
+				"v" "-720 2256 76"
+				"v" "-752 2256 76"
+				"v" "-752 2256 116"
+				"v" "-720 2256 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25603"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn7"
+	"volstart" "0"
+	"origin" "-736 2272 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25606"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal7"
+	"volstart" "0"
+	"origin" "-736 2272 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25609"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit7"
+	"origin" "-736 2272 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25649"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "191.99 2112 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit8"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit8,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit8,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal8,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn8,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit8,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit8,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25650"
+		side
+		{
+			"id" "8598"
+			"plane" "(176 2128 116) (208 2128 116) (208 2096 116)"
+			vertices_plus
+			{
+				"v" "176 2128 116"
+				"v" "208 2128 116"
+				"v" "208 2096 116"
+				"v" "176 2096 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8597"
+			"plane" "(176 2096 76) (208 2096 76) (208 2128 76)"
+			vertices_plus
+			{
+				"v" "176 2096 76"
+				"v" "208 2096 76"
+				"v" "208 2128 76"
+				"v" "176 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8596"
+			"plane" "(176 2128 116) (176 2096 116) (176 2096 76)"
+			vertices_plus
+			{
+				"v" "176 2128 116"
+				"v" "176 2096 116"
+				"v" "176 2096 76"
+				"v" "176 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8595"
+			"plane" "(208 2128 76) (208 2096 76) (208 2096 116)"
+			vertices_plus
+			{
+				"v" "208 2128 76"
+				"v" "208 2096 76"
+				"v" "208 2096 116"
+				"v" "208 2128 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8594"
+			"plane" "(208 2128 116) (176 2128 116) (176 2128 76)"
+			vertices_plus
+			{
+				"v" "208 2128 116"
+				"v" "176 2128 116"
+				"v" "176 2128 76"
+				"v" "208 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8593"
+			"plane" "(208 2096 76) (176 2096 76) (176 2096 116)"
+			vertices_plus
+			{
+				"v" "208 2096 76"
+				"v" "176 2096 76"
+				"v" "176 2096 116"
+				"v" "208 2096 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25652"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn8"
+	"volstart" "0"
+	"origin" "192 2112 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25655"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal8"
+	"volstart" "0"
+	"origin" "192 2112 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25658"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit8"
+	"origin" "192 2112 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25680"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "560 2112 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit9"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit9,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit9,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal9,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn9,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit9,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit9,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "25681"
+		side
+		{
+			"id" "8610"
+			"plane" "(544 2128 116) (576 2128 116) (576 2096 116)"
+			vertices_plus
+			{
+				"v" "544 2128 116"
+				"v" "576 2128 116"
+				"v" "576 2096 116"
+				"v" "544 2096 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8609"
+			"plane" "(544 2096 76) (576 2096 76) (576 2128 76)"
+			vertices_plus
+			{
+				"v" "544 2096 76"
+				"v" "576 2096 76"
+				"v" "576 2128 76"
+				"v" "544 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8608"
+			"plane" "(544 2128 116) (544 2096 116) (544 2096 76)"
+			vertices_plus
+			{
+				"v" "544 2128 116"
+				"v" "544 2096 116"
+				"v" "544 2096 76"
+				"v" "544 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8607"
+			"plane" "(576 2128 76) (576 2096 76) (576 2096 116)"
+			vertices_plus
+			{
+				"v" "576 2128 76"
+				"v" "576 2096 76"
+				"v" "576 2096 116"
+				"v" "576 2128 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8606"
+			"plane" "(576 2128 116) (544 2128 116) (544 2128 76)"
+			vertices_plus
+			{
+				"v" "576 2128 116"
+				"v" "544 2128 116"
+				"v" "544 2128 76"
+				"v" "576 2128 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8605"
+			"plane" "(576 2096 76) (544 2096 76) (544 2096 116)"
+			vertices_plus
+			{
+				"v" "576 2096 76"
+				"v" "544 2096 76"
+				"v" "544 2096 116"
+				"v" "576 2096 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "25683"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn9"
+	"volstart" "0"
+	"origin" "560 2112 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "25686"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal9"
+	"volstart" "0"
+	"origin" "560 2112 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "25689"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit9"
+	"origin" "560 2112 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26263"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "1575.99 1496 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit10"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit10,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit10,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal10,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn10,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit10,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit10,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "26264"
+		side
+		{
+			"id" "8658"
+			"plane" "(1560 1512 116) (1592 1512 116) (1592 1480 116)"
+			vertices_plus
+			{
+				"v" "1560 1512 116"
+				"v" "1592 1512 116"
+				"v" "1592 1480 116"
+				"v" "1560 1480 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8657"
+			"plane" "(1560 1480 76) (1592 1480 76) (1592 1512 76)"
+			vertices_plus
+			{
+				"v" "1560 1480 76"
+				"v" "1592 1480 76"
+				"v" "1592 1512 76"
+				"v" "1560 1512 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8656"
+			"plane" "(1560 1512 116) (1560 1480 116) (1560 1480 76)"
+			vertices_plus
+			{
+				"v" "1560 1512 116"
+				"v" "1560 1480 116"
+				"v" "1560 1480 76"
+				"v" "1560 1512 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8655"
+			"plane" "(1592 1512 76) (1592 1480 76) (1592 1480 116)"
+			vertices_plus
+			{
+				"v" "1592 1512 76"
+				"v" "1592 1480 76"
+				"v" "1592 1480 116"
+				"v" "1592 1512 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8654"
+			"plane" "(1592 1512 116) (1560 1512 116) (1560 1512 76)"
+			vertices_plus
+			{
+				"v" "1592 1512 116"
+				"v" "1560 1512 116"
+				"v" "1560 1512 76"
+				"v" "1592 1512 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8653"
+			"plane" "(1592 1480 76) (1560 1480 76) (1560 1480 116)"
+			vertices_plus
+			{
+				"v" "1592 1480 76"
+				"v" "1560 1480 76"
+				"v" "1560 1480 116"
+				"v" "1592 1480 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "26266"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/suitchargeok1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitrespawn10"
+	"volstart" "0"
+	"origin" "1576 1496 114.295"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "26269"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal10"
+	"volstart" "0"
+	"origin" "1576 1496 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "26272"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/items/placeholder/medkit_medium.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "mdl_tempmedkit10"
+	"origin" "1576 1496 84.557"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26281"
+	"classname" "weapon_crossbow"
+	"angles" "0 0 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "376 1856 76.557"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26297"
+	"classname" "item_ammo_crossbow"
+	"angles" "0 270 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "352 1856 73.4813"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26302"
+	"classname" "item_ammo_crossbow"
+	"angles" "0 270 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "416 1856 73.4813"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "26351"
+	"classname" "trigger_hurt"
+	"damage" "-52"
+	"damagecap" "-52"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-864.01 1536 96"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "trigger_tempmedkit11"
+	connections
+	{
+		"OnHurtPlayer" "trigger_tempmedkit11,Disable,,0,-1"
+		"OnHurtPlayer" "trigger_tempmedkit11,Enable,,10,-1"
+		"OnHurtPlayer" "snd_medkitheal11,PlaySound,,0,-1"
+		"OnHurtPlayer" "snd_medkitrespawn11,PlaySound,,10,-1"
+		"OnHurtPlayer" "mdl_tempmedkit11,Disable,,0,-1"
+		"OnHurtPlayer" "mdl_tempmedkit11,Enable,,10,-1"
+	}
+	solid
+	{
+		"id" "26352"
+		side
+		{
+			"id" "8682"
+			"plane" "(-880 1552 116) (-848 1552 116) (-848 1520 116)"
+			vertices_plus
+			{
+				"v" "-880 1552 116"
+				"v" "-848 1552 116"
+				"v" "-848 1520 116"
+				"v" "-880 1520 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8681"
+			"plane" "(-880 1520 76) (-848 1520 76) (-848 1552 76)"
+			vertices_plus
+			{
+				"v" "-880 1520 76"
+				"v" "-848 1520 76"
+				"v" "-848 1552 76"
+				"v" "-880 1552 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8680"
+			"plane" "(-880 1552 116) (-880 1520 116) (-880 1520 76)"
+			vertices_plus
+			{
+				"v" "-880 1552 116"
+				"v" "-880 1520 116"
+				"v" "-880 1520 76"
+				"v" "-880 1552 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8679"
+			"plane" "(-848 1552 76) (-848 1520 76) (-848 1520 116)"
+			vertices_plus
+			{
+				"v" "-848 1552 76"
+				"v" "-848 1520 76"
+				"v" "-848 1520 116"
+				"v" "-848 1552 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8678"
+			"plane" "(-848 1552 116) (-880 1552 116) (-880 1552 76)"
+			vertices_plus
+			{
+				"v" "-848 1552 116"
+				"v" "-880 1552 116"
+				"v" "-880 1552 76"
+				"v" "-848 1552 76"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8677"
+			"plane" "(-848 1520 76) (-880 1520 76) (-880 1520 116)"
+			vertices_plus
+			{
+				"v" "-848 1520 76"
+				"v" "-880 1520 76"
+				"v" "-880 1520 116"
+				"v" "-848 1520 116"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "26354"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "items/smallmedkit1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_medkitheal11"
+	"volstart" "0"
+	"origin" "-864 1536 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15500]"
+	}
+}
+entity
+{
+	"id" "26602"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" ""
+	"origin" "-358.147 -266.908 120"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
