@@ -5,3 +5,4 @@ dm_hangar
 dm_overkill
 dm_theslimeplace
 dm_widestmeter
+tdm_overkill
