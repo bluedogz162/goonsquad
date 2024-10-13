@@ -3,7 +3,7 @@
 	game	"GOONSQUAD"
 	title	"GOONSQUAD"
 	gamelogo 1
-	title2	""
+	title2	"GOONSQUAD"
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
