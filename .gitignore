@@ -34,3 +34,4 @@ user_custom/*
 *.backup
 *.log
 cfg/user.scr
+cache/DownloadCache.db
