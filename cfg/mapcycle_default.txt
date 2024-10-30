@@ -1,6 +1,7 @@
 dm_entryway
 dm_facility
 dm_fortblox
+dm_goonworld
 dm_hangar
 dm_overkill
 dm_theslimeplace
