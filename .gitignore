@@ -30,8 +30,11 @@ materials/temp/*
 modelsounds.cache
 sound/sound.cache
 sound/temp/*
+sound/quake/*
+sound/dagobah/*
 user_custom/*
 *.backup
 *.log
 cfg/user.scr
 cache/DownloadCache.db
+sound/misc/somesong.wav
