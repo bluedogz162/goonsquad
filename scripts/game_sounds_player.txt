@@ -89,8 +89,8 @@
 
 	"rndwave"
 	{
-			"wave"	"vo/placeholder/gunman_burn01.wav"
-			"wave"	"vo/placeholder/gunman_burn02.wav"
+			"wave"	"vo/goon/gunman_burn01.wav"
+			"wave"	"vo/goon/gunman_burn02.wav"
 	}
 }
 
@@ -105,15 +105,15 @@
 
 	"rndwave"
 	{
-		"wave"	"*vo/placeholder/gunman_death01.wav"
-		"wave"	"*vo/placeholder/gunman_death02.wav"
-		"wave"	"*vo/placeholder/gunman_death03.wav"
-		"wave"	"*vo/placeholder/gunman_death04.wav"
-		"wave"	"*vo/placeholder/gunman_death05.wav"
-		"wave"	"*vo/placeholder/gunman_death06.wav"
-		"wave"	"*vo/placeholder/gunman_death07.wav"
-		"wave"	"*vo/placeholder/gunman_death08.wav"
-		"wave"	"*vo/placeholder/gunman_death09.wav"
+		"wave"	"*vo/goon/gunman_death01.wav"
+		"wave"	"*vo/goon/gunman_death02.wav"
+		"wave"	"*vo/goon/gunman_death03.wav"
+		"wave"	"*vo/goon/gunman_death04.wav"
+		"wave"	"*vo/goon/gunman_death05.wav"
+		"wave"	"*vo/goon/gunman_death06.wav"
+		"wave"	"*vo/goon/gunman_death07.wav"
+		"wave"	"*vo/goon/gunman_death08.wav"
+		"wave"	"*vo/goon/gunman_death09.wav"
 	}
 }
 
@@ -125,12 +125,12 @@
 
 	"rndwave"
 	{
-			"wave"	"vo/placeholder/gunman_pain01.wav"
-			"wave"	"vo/placeholder/gunman_pain02.wav"
-			"wave"	"vo/placeholder/gunman_pain03.wav"
-			"wave"	"vo/placeholder/gunman_pain04.wav"
-			"wave"	"vo/placeholder/gunman_pain05.wav"
-			"wave"	"vo/placeholder/gunman_pain06.wav"
+			"wave"	"vo/goon/gunman_pain01.wav"
+			"wave"	"vo/goon/gunman_pain02.wav"
+			"wave"	"vo/goon/gunman_pain03.wav"
+			"wave"	"vo/goon/gunman_pain04.wav"
+			"wave"	"vo/goon/gunman_pain05.wav"
+			"wave"	"vo/goon/gunman_pain06.wav"
 	}
 }
 
@@ -151,12 +151,12 @@
 
 	"rndwave"
 	{
-			"wave"	"vo/placeholder/gunman_pain01.wav"
-			"wave"	"vo/placeholder/gunman_pain02.wav"
-			"wave"	"vo/placeholder/gunman_pain03.wav"
-			"wave"	"vo/placeholder/gunman_pain04.wav"
-			"wave"	"vo/placeholder/gunman_pain05.wav"
-			"wave"	"vo/placeholder/gunman_pain06.wav"
+			"wave"	"vo/goon/gunman_pain01.wav"
+			"wave"	"vo/goon/gunman_pain02.wav"
+			"wave"	"vo/goon/gunman_pain03.wav"
+			"wave"	"vo/goon/gunman_pain04.wav"
+			"wave"	"vo/goon/gunman_pain05.wav"
+			"wave"	"vo/goon/gunman_pain06.wav"
 	}
 }
 
@@ -169,8 +169,8 @@
 
 	"rndwave"
 	{
-		"wave"	"vo/placeholder/gunman_drown01.wav"
-		"wave"	"vo/placeholder/gunman_drown02.wav"
+		"wave"	"vo/goon/gunman_drown01.wav"
+		"wave"	"vo/goon/gunman_drown02.wav"
 	}
 }
 
@@ -182,8 +182,8 @@
 
 	"rndwave"
 	{
-		"wave"	"vo/placeholder/gunman_jump01.wav"
-		"wave"	"vo/placeholder/gunman_jump01.wav"
+		"wave"	"vo/goon/gunman_jump01.wav"
+		"wave"	"vo/goon/gunman_jump01.wav"
 	}
 }
 
@@ -212,8 +212,8 @@
 
 	"rndwave"
 	{
-		"wave"	"vo/placeholder/gunman_fallpain01.wav"
-		"wave"	"vo/placeholder/gunman_fallpain02.wav"
+		"wave"	"vo/goon/gunman_fallpain01.wav"
+		"wave"	"vo/goon/gunman_fallpain02.wav"
 	}
 }
 
@@ -239,8 +239,8 @@
 
 	"rndwave"
 	{
-		"wave"	"vo/placeholder/gunman_drown01.wav"
-		"wave"	"vo/placeholder/gunman_drown02.wav"
+		"wave"	"vo/goon/gunman_drown01.wav"
+		"wave"	"vo/goon/gunman_drown02.wav"
 	}
 }
 
@@ -334,15 +334,15 @@
 
 	"rndwave"
 	{
-		"wave"	"*vo/placeholder/gunman_death01.wav"
-		"wave"	"*vo/placeholder/gunman_death02.wav"
-		"wave"	"*vo/placeholder/gunman_death03.wav"
-		"wave"	"*vo/placeholder/gunman_death04.wav"
-		"wave"	"*vo/placeholder/gunman_death05.wav"
-		"wave"	"*vo/placeholder/gunman_death06.wav"
-		"wave"	"*vo/placeholder/gunman_death07.wav"
-		"wave"	"*vo/placeholder/gunman_death08.wav"
-		"wave"	"*vo/placeholder/gunman_death09.wav"
+		"wave"	"*vo/goon/gunman_death01.wav"
+		"wave"	"*vo/goon/gunman_death02.wav"
+		"wave"	"*vo/goon/gunman_death03.wav"
+		"wave"	"*vo/goon/gunman_death04.wav"
+		"wave"	"*vo/goon/gunman_death05.wav"
+		"wave"	"*vo/goon/gunman_death06.wav"
+		"wave"	"*vo/goon/gunman_death07.wav"
+		"wave"	"*vo/goon/gunman_death08.wav"
+		"wave"	"*vo/goon/gunman_death09.wav"
 	}
 }
 
@@ -356,15 +356,15 @@
 
 	"rndwave"
 	{
-		"wave"	"*vo/placeholder/gunman_death01.wav"
-		"wave"	"*vo/placeholder/gunman_death02.wav"
-		"wave"	"*vo/placeholder/gunman_death03.wav"
-		"wave"	"*vo/placeholder/gunman_death04.wav"
-		"wave"	"*vo/placeholder/gunman_death05.wav"
-		"wave"	"*vo/placeholder/gunman_death06.wav"
-		"wave"	"*vo/placeholder/gunman_death07.wav"
-		"wave"	"*vo/placeholder/gunman_death08.wav"
-		"wave"	"*vo/placeholder/gunman_death09.wav"
+		"wave"	"*vo/goon/gunman_death01.wav"
+		"wave"	"*vo/goon/gunman_death02.wav"
+		"wave"	"*vo/goon/gunman_death03.wav"
+		"wave"	"*vo/goon/gunman_death04.wav"
+		"wave"	"*vo/goon/gunman_death05.wav"
+		"wave"	"*vo/goon/gunman_death06.wav"
+		"wave"	"*vo/goon/gunman_death07.wav"
+		"wave"	"*vo/goon/gunman_death08.wav"
+		"wave"	"*vo/goon/gunman_death09.wav"
 	}
 }
 "NPC_Citizen.die"
@@ -377,14 +377,14 @@
 
 	"rndwave"
 	{
-		"wave"	"*vo/placeholder/gunman_death01.wav"
-		"wave"	"*vo/placeholder/gunman_death02.wav"
-		"wave"	"*vo/placeholder/gunman_death03.wav"
-		"wave"	"*vo/placeholder/gunman_death04.wav"
-		"wave"	"*vo/placeholder/gunman_death05.wav"
-		"wave"	"*vo/placeholder/gunman_death06.wav"
-		"wave"	"*vo/placeholder/gunman_death07.wav"
-		"wave"	"*vo/placeholder/gunman_death08.wav"
-		"wave"	"*vo/placeholder/gunman_death09.wav"
+		"wave"	"*vo/goon/gunman_death01.wav"
+		"wave"	"*vo/goon/gunman_death02.wav"
+		"wave"	"*vo/goon/gunman_death03.wav"
+		"wave"	"*vo/goon/gunman_death04.wav"
+		"wave"	"*vo/goon/gunman_death05.wav"
+		"wave"	"*vo/goon/gunman_death06.wav"
+		"wave"	"*vo/goon/gunman_death07.wav"
+		"wave"	"*vo/goon/gunman_death08.wav"
+		"wave"	"*vo/goon/gunman_death09.wav"
 	}
 }
